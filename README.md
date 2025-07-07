@@ -21,7 +21,7 @@
 برای نصب این ابزار، کافی است دستور زیر را در ترمینال اجرا کنید:
 
 ```bash
-curl -s https://raw.githubusercontent.com/yourusername/network-monitor/main/install.sh | bash
+curl -s https://raw.githubusercontent.com/storm-lands/network-monitor/main/install.sh | bash
 ```
 
 یا می‌توانید فایل `install.sh` را دانلود کرده و به صورت دستی اجرا کنید:
