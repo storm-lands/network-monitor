@@ -91,21 +91,6 @@ sudo apt-get install -y ifstat curl jq python3 python3-pip
 pip3 install flask
 ```
 
-## قرار دادن اسکریپت‌ها در گیت‌هاب
-
-برای قرار دادن اسکریپت‌ها در گیت‌هاب و استفاده از لینک مستقیم در دستور curl، مراحل زیر را دنبال کنید:
-
-1. یک حساب کاربری در [GitHub](https://github.com) ایجاد کنید (اگر ندارید).
-2. یک مخزن (repository) جدید با نام `network-monitor` ایجاد کنید.
-3. فایل‌های `install.sh`، `network_monitor.sh`، `main_server.py` و `README.md` را در مخزن آپلود کنید.
-4. پس از آپلود، لینک مستقیم به فایل `install.sh` به صورت زیر خواهد بود:
-   ```
-   https://raw.githubusercontent.com/yourusername/network-monitor/main/install.sh
-   ```
-5. در این لینک، `yourusername` را با نام کاربری گیت‌هاب خود جایگزین کنید.
-
-حالا می‌توانید این لینک را در دستور curl استفاده کنید تا کاربران بتوانند با یک دستور ساده، اسکریپت شما را نصب و اجرا کنند.
-
 ## لایسنس
 
 این پروژه تحت لایسنس MIT منتشر شده است.
